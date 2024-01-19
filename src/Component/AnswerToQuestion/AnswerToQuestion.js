@@ -337,7 +337,7 @@ const AnswerToQuestion = () => {
                         <div className="fixed inset-0 transition-opacity">
                             <div className="absolute inset-0 bg-black opacity-75"></div>
                         </div>
-                        <div className="relative z-50 w-[500px] inline-block px-6 py-8 my-8 text-left align-middle transition-all transform bg-white shadow-xl rounded">
+                        <div className="relative z-50 w-[500px] inline-block px-6 py-8 my-8 text-left align-middle transition-all transform bg-white shadow-xl rounded-[20px]">
                             <div className="flex flex-col gap-7">
                                 <div className="flex flex-col justify-center text-center text-xl text-red-800 font-bold">
                                     <p>Are you sure you want to skip this question?</p>

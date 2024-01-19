@@ -149,7 +149,7 @@ const ExamineeExamDetails = () => {
 
                 <div className='grid md:grid-cols-3 xl:grid-cols-4 justify-items-center  gap-5 mr-2'>
                     {getExamDetail.map((qList, index) => (
-                        <div className='bg-white relative w-[250px] h-[230px] px-4 pt-4 pb-2 shadow-md rounded-lg'>
+                        <div className='bg-white relative w-[250px] h-[250px] px-4 pt-4 pb-2 shadow-md rounded-lg'>
                             <div className='mb-2'>
                                 <div className='flex justify-between'>
                                     <div>
@@ -158,7 +158,7 @@ const ExamineeExamDetails = () => {
                                         </label>
                                     </div>
                                 </div>
-                                <input
+                                {/* <input
                                     className='shadow appearance-none border rounded text-[10px] w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
                                     id='question'
                                     name='question'
@@ -168,7 +168,11 @@ const ExamineeExamDetails = () => {
                                     disabled
                                     required
                                     type='text'
-                                ></input>
+                                ></input> */}
+                                <p
+                                    className='shadow appearance-none border rounded text-left text-[10px] w-full py-1 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                                    id='question'
+                                >{qList.question_name}</p>
                             </div>
                             <div className='2'>
                                 <label className='block text-gray-700 text-left text-[10px] font-bold mb-2'>Answers</label>
